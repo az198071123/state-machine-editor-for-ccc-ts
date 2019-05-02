@@ -247,11 +247,10 @@ interface StateNameInterface{
 interface EventNameInterface{
     #eventNameInterface#
 }
-import StateMachine from "../libs/StateMachine";
-import {AbstractComponent} from "../views/AbstractComponent";
-import {AbstractModel} from "../models/AbstractModel";
-import {AbstractController} from "../controllers/AbstractController";
-export abstract class #className#  extends cc.Component  {
+
+import StateMachine from "./StateMachine";
+
+export default abstract class #className#  extends cc.Component  {
 
     private fsm:any;
 
